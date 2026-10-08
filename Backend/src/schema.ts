@@ -7,3 +7,4 @@ export const AskResultSchema = z.object({
 })
 
 export type AskResult = z.infer<typeof AskResultSchema>;
+
